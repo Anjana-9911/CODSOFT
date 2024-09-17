@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "Ink Free";
+  src: url("path/to/InkFree.ttf") format("truetype");
+}
+body {
+  background-color: rgb(233, 229, 200);
+  margin: 0;
+  padding: 0;
+  font-family: "Ink Free", cursive;
+  overflow: hidden;
+}
+.container {
+  background-image: url("image1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  width: 450px;
+  height: 650px;
+  /* margin: 100px auto; */
+  min-width: 450px;
+  background-color: #d9c0eca5;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  font-family: "Ink Free", cursive;
+}
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#display {
+  width: 97%;
+  /* height: 80px; */
+  /* box-sizing: border-box; */
+  border: 2px solid #070707;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(255 255 255);
+}
+#display input {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Ink Free", cursive;
+}
+#display #equation {
+  height: 20%;
+  font-size: 25px;
+  
+}
+#display #inputBox {
+  height: 80%;
+  font-size: 36px;
+  text-align: right;
+  
+}
+.lines {
+  padding: 13px;
+}
+.button-operator {
+  padding: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+  background-color: rgb(158, 238, 212);
+  font-family: "Ink Free", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+.button {
+  padding: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+  background-color: rgb(227, 165, 202);
+  font-family: "Ink Free", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+#equals {
+  padding: 30px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 80px;
+  height: 80px;
+  background-color: rgb(183, 238, 156);
+  font-family: "Ink Free", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-operator:hover {
+  background-color: rgb(118, 218, 182);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgb(217, 125, 172);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}
+
+#equals:hover {
+  background-color: rgb(143, 218, 106);
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}

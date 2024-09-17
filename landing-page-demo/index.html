@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Demo Project</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- header and sidebar -->
+    <header>
+      <nav>
+        <div class="logo">EIoT</div>
+        <ul class="nav-links">
+          <li>
+            <a href="#">Home</a>
+            <!-- <ul class="dropdown">
+              <li><a href="#">Home version 1</a></li>
+              <li><a href="#">Home version 2</a></li>
+            </ul> -->
+          </li>
+          <li>
+            <a href="#">Programs</a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+            <ul class="dropdown">
+              <li><a href="#">Faculty</a></li>
+              <li><a href="#">Admissions</a></li>
+              <li><a href="#">Research</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Campus Life</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- swiper or carousel -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="./resources/image1.jpg" alt="Image 1" />
+          <div class="slide-content">
+            <h1>Welcome to Excellence Institute of Technology</h1>
+            <h3>
+              Empowering minds, shaping futures. Join us in our state-of-the-art
+              campus for a world-class education in technology and innovation.
+            </h3>
+            <button class="learn-more-btn">Explore Programs</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./resources/image2.jpg" alt="Image 2" />
+          <div class="slide-content">
+            <h1>Cutting-edge Research Opportunities</h1>
+            <h3>
+              Engage in groundbreaking research projects alongside renowned
+              faculty members. Be at the forefront of technological
+              advancements.
+            </h3>
+            <button class="learn-more-btn">View Research Areas</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="./resources/image3.jpg" alt="Image 3" />
+          <div class="slide-content">
+            <h1>Industry-Ready Graduates</h1>
+            <h3>
+              Our programs are designed in collaboration with industry leaders
+              to ensure you're prepared for the challenges of tomorrow's tech
+              landscape.
+            </h3>
+            <button class="learn-more-btn">See Career Outcomes</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- info div 1 -->
+    <div class="info-container-1">
+      <div class="info-text">
+        <h2>About Excellence Institute of Technology</h2>
+        <p>
+          Founded in 1985, Excellence Institute of Technology has been at the
+          forefront of technological education for over three decades. Our
+          commitment to innovation, research, and industry collaboration ensures
+          that our graduates are well-prepared for the dynamic world of
+          technology.
+        </p>
+      </div>
+      <div class="info-image">
+        <img
+          src="https://img.freepik.com/free-photo/business-startup-strategy-goals-concept_53876-120909.jpg?w=1060&t=st=1724486195~exp=1724486795~hmac=3ca05872ede1304fc3aa9bd348683794b2d6b0566a0cbf606610f8d6fa7b7a11"
+          alt="Information Image"
+        />
+      </div>
+    </div>
+
+    <!-- info div 2 -->
+    <div class="info-container-2 container mt-5">
+      <h1>Discover Excellence in Education</h1>
+      <h5 class="mb-4">
+        At Excellence Institute of Technology, we offer a diverse range of
+        cutting-edge programs designed to prepare you for the rapidly evolving
+        tech industry. Our world-class faculty, state-of-the-art facilities, and
+        industry partnerships ensure you receive an education that's both
+        theoretical and practical.
+      </h5>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://media.gettyimages.com/id/1434116614/photo/teamwork-diversity-and-sales-manager-planning-branding-ideas-with-a-creative-designer-on-a.jpg?s=612x612&w=0&k=20&c=0qDHz0EDKEgxqcRP7V-YWaGv9nrjKDXG5lz8svrlbcQ="
+              class="card-img-top"
+              alt="Card image 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Innovative Programs</h5>
+              <p class="card-text">
+                Discover our cutting-edge programs in AI, Robotics, Data
+                Science, and more. Stay ahead in the rapidly evolving tech
+                industry.
+              </p>
+              <a href="#" class="btn btn-primary" style="background-color: #444"
+                >Explore Programs</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29ycG9yYXRlJTIwdHJhaW5pbmd8ZW58MHx8MHx8fDA%3D"
+              class="card-img-top"
+              alt="Card image 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">World-Class Faculty</h5>
+              <p class="card-text">
+                Learn from industry experts and renowned researchers. Our
+                faculty brings real-world experience to the classroom.
+              </p>
+              <a href="#" class="btn btn-primary" style="background-color: #444"
+                >Meet Our Faculty</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://img.freepik.com/free-photo/boss-businessman-holding-papers-hands-smiling-young-team-coworkers-making-great-business-discussion-modern-coworking-office_496169-1622.jpg?size=626&ext=jpg&ga=GA1.1.705610571.1722426058&semt=ais_hybrid"
+              class="card-img-top"
+              alt="Card image 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">State-of-the-Art Facilities</h5>
+              <p class="card-text">
+                Access cutting-edge labs, research centers, and collaborative
+                spaces designed to foster innovation and learning.
+              </p>
+              <a href="#" class="btn btn-primary" style="background-color: #444"
+                >Virtual Tour</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- info div 3 -->
+    <div class="info-container-3">
+      <div class="info-item">
+        <h3>160+</h3>
+        <p>Teachers</p>
+      </div>
+      <div class="info-item">
+        <h3>2000+</h3>
+        <p>Students</p>
+      </div>
+      <div class="info-item">
+        <h3>45+</h3>
+        <p>Research Centers</p>
+      </div>
+      <div class="info-item">
+        <h3>90%</h3>
+        <p>Placement Rate</p>
+      </div>
+    </div>
+
+    <!-- info div 3.5 -->
+    <div class="info-container-3-5 container mt-5">
+      <h1>Latest News</h>
+      <h5>Stay updated with the latest happenings at Excellence Institute of Technology</h5>
+    
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="https://marsdd-public-files.s3.ca-central-1.amazonaws.com/wp-content/uploads/2022/06/06213953/stock_quantum-computer.jpg" alt="Research breakthrough">
+          <div class="card-body">
+            <h5 class="card-title">Breakthrough in Quantum Computing Research</h5>
+            <p class="card-text">Our researchers have made a significant advancement in quantum computing, paving the way for faster and more secure data processing.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Published 2 days ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://www.pragmaticinstitute.com/resources/wp-content/uploads/sites/6/2023/01/partnership-handshake-innovation-corporate-business-concept-scaled.jpg" alt="Industry partnership">
+          <div class="card-body">
+            <h5 class="card-title">New Industry Partnership Announced</h5>
+            <p class="card-text">Excellence Institute of Technology partners with leading tech giant to provide enhanced internship opportunities for students.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Published 1 week ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="https://innovationaward.org/wp-content/uploads/2020/04/social-card.jpg" alt="Award ceremony">
+          <div class="card-body">
+            <h5 class="card-title">Excellence Institute Wins Innovation Award</h5>
+            <p class="card-text">Our institution has been recognized for its innovative approach to technology education at the annual Tech Education Summit.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Published 2 weeks ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- info div 4 -->
+    <div class="info-container-4">
+      <div class="testimonial">
+        <div class="profile-image">
+          <img
+            src="https://img.freepik.com/free-photo/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair_285396-896.jpg?t=st=1724491986~exp=1724495586~hmac=4c316a2ba6363deafc9c31ab54b548a181c6107bfd6a6e853b1454c53dd9c7b6&w=1060"
+            alt="Profile Image"
+          />
+        </div>
+        <div class="comment">
+          <p>
+            "Studying at Excellence Institute of Technology was a transformative
+            experience. The hands-on projects, industry internships, and
+            mentorship from faculty have prepared me for a successful career in
+            tech."
+          </p>
+          <h4>Anjana Maity</h4>
+          <p class="position">Alumni, Software Engineer at Tech Giant Inc.</p>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="mt-5">
+      <footer
+        class="text-center text-lg-start text-white"
+        style="background-color: #333"
+      >
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-between p-4"
+          style="background-color: #444"
+        >
+          <!-- Left -->
+          <div class="me-5">
+            <span>Connect with Excellence Institute of Technology:</span>
+          </div>
+          <!-- Right -->
+          <div>
+            <a
+              href="https://facebook.com/ExcellenceInstitute"
+              class="text-white me-4"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://twitter.com/ExcellenceInst"
+              class="text-white me-4"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://linkedin.com/school/excellence-institute"
+              class="text-white me-4"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a
+              href="https://instagram.com/excellenceinstitute"
+              class="text-white me-4"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://youtube.com/ExcellenceInstituteEdu"
+              class="text-white me-4"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </section>
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">
+                  Excellence Institute of Technology
+                </h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  Empowering future tech leaders through innovative education,
+                  cutting-edge research, and industry partnerships since 1985.
+                </p>
+              </div>
+
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Programs</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p><a href="#!" class="text-white">Computer Science</a></p>
+                <p>
+                  <a href="#!" class="text-white">Artificial Intelligence</a>
+                </p>
+                <p><a href="#!" class="text-white">Data Science</a></p>
+                <p><a href="#!" class="text-white">Cybersecurity</a></p>
+              </div>
+
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold">Quick Links</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p><a href="#!" class="text-white">Admissions</a></p>
+                <p><a href="#!" class="text-white">Research Centers</a></p>
+                <p><a href="#!" class="text-white">Career Services</a></p>
+                <p><a href="#!" class="text-white">Alumni Network</a></p>
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold">Contact</h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <i class="fas fa-home mr-3"></i> 123 Tech Avenue, Silicon
+                  Valley, CA 94000
+                </p>
+                <p>
+                  <i class="fas fa-envelope mr-3"></i>
+                  info@excellenceinstitute.edu
+                </p>
+                <p><i class="fas fa-phone mr-3"></i> + 1 (800) 123-4567</p>
+                <p><i class="fas fa-print mr-3"></i> + 1 (800) 765-4321</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2023 Copyright:
+          <a class="text-white" href="https://excellenceinstitute.edu"
+            >ExcellenceInstitute.edu</a
+          >
+        </div>
+      </footer>
+    </div>
+    <!-- scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
